@@ -1,0 +1,13 @@
+[project]
+authors = ["Lesly Kinzel <lesly.helios@proton.me>"]
+channels = ["https://conda.modular.com/max-nightly", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community", "conda-forge"]
+name = "life"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = "*"
+python = ">=3.11,<3.13"
+pygame = ">=2.6.1,<3"
